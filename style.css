@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+}
+.wrapper{
+    margin: 150px auto;
+    width: 450px ;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.wrapper h1{
+   font-size: 30px;
+   padding-bottom: 20px;
+   color: red;
+}
+
+.input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#input{
+    width: 100%;
+    padding: 8px 45px 8px 10px;
+    border-radius: 15px;
+    border: 2px solid black;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.input-box i {
+    position: absolute;
+    right: 10px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.btn-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Generate-btn{
+    background: black;
+    padding: 15px;
+    width: 40%;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 12px ;
+     color: white;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+}
+
+input[type = "range"]{
+    width: 100%;
+}
+
+.Password-length{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 12px 38px;
+}
+
+.condition-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    padding: 3px 30px;
+}
+
+input[type="checkbox"]  , label{
+    cursor: pointer;
+}

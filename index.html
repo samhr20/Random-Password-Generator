@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/056ca98994.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1> Random Password Generator..</h1>
+    <div class="input-box">
+      <input type="text" id="input" disabled>
+      <i class="fa-regular fa-copy" id="copy-btn"></i>
+    </div>
+
+    <input type="range" id="Range" min="1" max="30" value="8">
+    
+   <div class="Password-length">
+    <p>Password Length</p>
+    <span class="Password-length-value">8</span>
+   </div>
+   
+    <div >
+
+      <div class="Lowercase-box condition-box ">
+        <label for="lowercase">Include Lowercase letters (a-z)</label>
+        <input type="checkbox" name="lowercase" id="lowercase">
+      </div>
+     
+      <div class="Uppercase-box condition-box">
+        <label for="Uppercase">Include Uppercase letters (A-Z)</label>
+        <input type="checkbox" name="Uppercase" id="Uppercase">
+      </div>
+
+      <div class="Number-box condition-box">
+        <label for="number">Include Numbers (0-9)</label>
+        <input type="checkbox" name="number" id="number">
+      </div>
+
+      <div class="Special-character-box condition-box">
+        <label for="Special-character">Include Special character (@-#)</label>
+        <input type="checkbox" name="Special-character" id="Special-character">
+      </div>
+
+    </div>
+    <div class="btn-box">
+      <button class="Generate-btn">Generate</button>
+    </div>
+  </div> 
+
+  <script src="script.js"></script>
+</body>
+
+</html>
